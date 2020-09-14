@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3s on DICOM Tutorial</title>
+    <link>https://BOB-dcm.github.io/TUTO/3/</link>
+    <description>Recent content in 3s on DICOM Tutorial</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 23 Aug 2020 18:42:05 +0200</lastBuildDate>
+    
+	<atom:link href="https://BOB-dcm.github.io/TUTO/3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DICOM Toolkit</title>
+      <link>https://BOB-dcm.github.io/TUTO/3/toolkit/</link>
+      <pubDate>Sun, 23 Aug 2020 18:42:05 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/3/toolkit/</guid>
+      <description>MIt dem Toolkit lassen sich die DICOM Daten direkt in der commando console des RPi bearbeiten. So kann mit dcmdump eine DICOM Datei gelesen werden oder dcmcjpeg zur Datenkomprimierung eingesetzt werden. Es gibt eine ganze Reihe solcher Tools.
+In diesem Kapitel werden Beispiele für die Anwendung solcher Befehle gezeigt.
+Die Commandos in der RPi Console dieses Tutorials verwenden das DCMTK Toolkit. Dieses ist im Installationspacket von Orthanc mit dabei, kann aber auch für weitere Betriebssysteme bezogen werden unter der Verlinkung.</description>
+    </item>
+    
+    <item>
+      <title>Datenverarbeitungs Befehle</title>
+      <link>https://BOB-dcm.github.io/TUTO/3/befehle-daten/</link>
+      <pubDate>Sun, 23 Aug 2020 18:41:34 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/3/befehle-daten/</guid>
+      <description>dcmdump dcm2jpeg dcm2pdf dcmdjpeg</description>
+    </item>
+    
+    <item>
+      <title>Netzwerk Befehle</title>
+      <link>https://BOB-dcm.github.io/TUTO/3/befehle-netzwerk/</link>
+      <pubDate>Sun, 23 Aug 2020 18:41:34 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/3/befehle-netzwerk/</guid>
+      <description>STORE ECHO FIND MOVE GET</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://BOB-dcm.github.io/TUTO/3/bildkomprimirerung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/3/bildkomprimirerung/</guid>
+      <description>Die Bildkomprimierung ist seit ihrer Einführung Teil des DICOM Standards. Damit wird die ursprüngliche Datengrösse des Bildes erheblich reduziert und spart nebst Speicherplatz auch Zeit, die für die Verarbeitung der Daten erforderlich ist (Download, Store, etc.). Dies wird dadurch erreicht, dass die Pixeldaten in eine kürzere Form umgeordnet werden. DICOM selbst enthält keine eigenen Kompressionstechniken, sondern ziemlich alle bekannten Bildkomprimierungsalgorithmen wie ZIP, RLE, JPEG, JPEG2000 und JPEG LS. Die DICOM Datenobjekte mit komprimierten Bildpixelbytes werden in explizit VR Little Endian kodiert.</description>
+    </item>
+    
+  </channel>
+</rss>

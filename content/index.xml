@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contents on DICOM Tutorial</title>
+    <link>https://BOB-dcm.github.io/TUTO/content/</link>
+    <description>Recent content in Contents on DICOM Tutorial</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 07 Sep 2020 15:51:58 +0200</lastBuildDate>
+    
+	<atom:link href="https://BOB-dcm.github.io/TUTO/content/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Software</title>
+      <link>https://BOB-dcm.github.io/TUTO/content/software/</link>
+      <pubDate>Mon, 07 Sep 2020 15:51:58 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/content/software/</guid>
+      <description>Eingesetzte Software Es kommen einige verschiedene Softwaren zum Einsatz. Wir benötigen ein Archiv, der Kern eines PACS und einen DICOM Viewer, um die abgerufenen Bilder auch betrachten zu können. Zur Befundung reichen diese meist nicht aus, trotzdem bringen die Viewer einige nützliche Bearbetungs Tools mit sich.
+Archiv/Modality
+Orthanc: DICOM Server
+Workstation
+Sante DICOM Viewer: Viewer</description>
+    </item>
+    
+    <item>
+      <title>Was ist DICOM</title>
+      <link>https://BOB-dcm.github.io/TUTO/content/7/was-ist-dicom/</link>
+      <pubDate>Sun, 23 Aug 2020 20:11:52 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/content/7/was-ist-dicom/</guid>
+      <description>What </description>
+    </item>
+    
+    <item>
+      <title>Serviceklassen</title>
+      <link>https://BOB-dcm.github.io/TUTO/content/serviceklassen/</link>
+      <pubDate>Sun, 23 Aug 2020 18:42:24 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/content/serviceklassen/</guid>
+      <description>DICOM Serviceklassen Die Netzwerkdienste in DICOM werden als Serviceklassen bezeichnet. Diese setzen sich immer aus 2 Teilen zusammen. Zum einen gibt es die Netzwerkbefehle oder Kommandos welch als DIMSE bezeichnet werden. Zum anderen werden mit Befehlen Daten übermittelt. Dies geschieht mit den IODs.
+Der DICOM Standard definiert eine ganze Reihe von Serviceklassen. In diesem Tutorial beschäftigen wir uns jedoch nicht mit einer grossen Anzahl davon. Doch wir werden grundlegende und bewährte Serviceklassen aus dem Alltag bildgebender Medizin betrachten.</description>
+    </item>
+    
+    <item>
+      <title>Query/Retrieve</title>
+      <link>https://BOB-dcm.github.io/TUTO/content/5/queryretrieve/</link>
+      <pubDate>Sun, 23 Aug 2020 18:42:15 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/content/5/queryretrieve/</guid>
+      <description>Query Die Query/Retrieve Service Klasse gehört zu den &amp;hellip;. Bei einem Query wird ein C-FIND DIMSE verwendet, welches die Suchattribute im dazugehörigen IOD enthält. Nach diesen Suchattributen wird auf dem SCP ein Datenabgleich ausgeführt. Füre jede Übereinstimmung sendet der C-FIND SCP die Antworten an den C-FIND SCU zurück.
+Somit dient der Query Befehl auch als Kontrolle, ob die gesuchten Daten auf einem Archiv als SCP vorhanden sind. Erst nach Bestätigung vom SCP zum SCU ist es möglich die Daten anzufordern und zu speichern.</description>
+    </item>
+    
+    <item>
+      <title>RPi Konfiguration</title>
+      <link>https://BOB-dcm.github.io/TUTO/content/konfiguration/raspberry-pi/</link>
+      <pubDate>Sun, 23 Aug 2020 18:42:15 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/content/konfiguration/raspberry-pi/</guid>
+      <description>Als DICOM Server wird in diesem Tutorial die Software Orthanc dienen. Diese wird auf dem Raspberry Pi installiert, sowie auch auf dem PC. Orthanc kann als Server und als Modalität konfiguriert werden. Auf dem RPi wird sie als Server genutzt und auf dem PC als simulierte Modalität.
+ Installation RPi:
+  Nach verbinden via ssh wird folgender Befehl eingegeben.
+apt-get install orthanc   Nach erfolgreicher Installation wechseln wir das Verzeichnis, um zur Konfigurations Datei des DICOM Servers zu gelangen.</description>
+    </item>
+    
+    <item>
+      <title>Store</title>
+      <link>https://BOB-dcm.github.io/TUTO/content/5/store/</link>
+      <pubDate>Sun, 23 Aug 2020 18:42:15 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/content/5/store/</guid>
+      <description>Dieser Dienst wird zur Speicherung von DICOM Bildern verwendet. Er zählt zu den grundlegenden Eigenschaften des DICOM Netzwerkdienstes und kommt dementspechend auch häufig zum Einsatz. Nach jeder abgeschlossenden Studie eines Patienten werden die Bilder mit dem DIMSE C-Store an ein Archiv versendet. Zur Speicherung in einer Datenbank/Langzeitarchiv. Die Workstations speichern die abgerufenen Bilder auch ab, jedoch werden diese mit einem andern DIMSE Befehl angefordert. Der Store Netzwerkdienst kann als züsätlicher Teil in anderen Serviceklassen enthalten sein.</description>
+    </item>
+    
+    <item>
+      <title>Verification</title>
+      <link>https://BOB-dcm.github.io/TUTO/content/5/verfication/</link>
+      <pubDate>Sun, 23 Aug 2020 18:42:15 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/content/5/verfication/</guid>
+      <description>Die Verification Class dient der überprüfung einer DICOM Konnektivität zwischen 2 DICOM Knoten. Es wird als SCU und SCP eingesetzt. Der Verlauf beginnt mit einer C-ECHO-RQ Message vom SCU zum SCP, der wiederum mit einer C-ECHO-RSP antwortet. Damit wird sichergestellt, das diese Verbindung zwischen den DICOM Knoten richtig konfiguriert ist.
+Die Verification Class lässt sich wie folgt ausführen:
+PC  Nach der Wahl der DICOM Servers. Wird mit der Taste Test ECHO das C-ECHO SCU ausgeführt.</description>
+    </item>
+    
+    <item>
+      <title>DICOM Toolkit</title>
+      <link>https://BOB-dcm.github.io/TUTO/content/3/toolkit/</link>
+      <pubDate>Sun, 23 Aug 2020 18:42:05 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/content/3/toolkit/</guid>
+      <description>MIt dem Toolkit lassen sich die DICOM Daten direkt in der commando console des RPi bearbeiten. So kann mit dcmdump eine DICOM Datei gelesen werden oder dcmcjpeg zur Datenkomprimierung eingesetzt werden. Es gibt eine ganze Reihe solcher Tools.
+In diesem Kapitel werden Beispiele für die Anwendung solcher Befehle gezeigt.
+Die Commandos in der RPi Console dieses Tutorials verwenden das DCMTK Toolkit. Dieses ist im Installationspacket von Orthanc mit dabei, kann aber auch für weitere Betriebssysteme bezogen werden unter der Verlinkung.</description>
+    </item>
+    
+    <item>
+      <title>DICOM Bilder</title>
+      <link>https://BOB-dcm.github.io/TUTO/content/1/bilder/</link>
+      <pubDate>Sun, 23 Aug 2020 18:41:57 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/content/1/bilder/</guid>
+      <description>DICOM Bilder Es werden verschiedene Bilddatenbanken und Beispielbilder im Internet angeboten. Unter folgenden Links findet man verschiedenste Bilder von unterschiedlicher Qualität.
+  dsf.
+  dsafdsaf
+ DAFADSF    sf.
+     Die DICOM BIlder werden benötigt für dieses Tutorial. Sie sind die Daten welche von DICOM kodiert werden und in bytes durch das Netzwerk transferiert werden. Es gibt verschiedene bildgebende Verfahren. Daher unterscheiden sich auch die erzeugten Bilder der jeweiligen Verfahren.</description>
+    </item>
+    
+    <item>
+      <title>DICOM Viewer</title>
+      <link>https://BOB-dcm.github.io/TUTO/content/1/viewer/</link>
+      <pubDate>Sun, 23 Aug 2020 18:41:51 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/content/1/viewer/</guid>
+      <description>Anzeige Damit sich Bilder im DICOM Format anzeigen lassen, werden DICOM Viewer vorausgesetzt. Mit diesen lassen sich nebst dem betrachten der Bilder, auch viele verschiedene Veränderungen am Bild vornehemen. Dieses Kapitel wird mit dem Programm DICOM Sante PACS behandelt, welches über einen übersichtlichen Viewer verfügt. Er bietet zudem auch einen Hexa Viewer an, mit welchem sich die einzelnen Teile eines DICOM Datenstroms aufgezeigen lassen. Der DICOM Sante PACS Server wird in einem anderen Kapitel behandelt.</description>
+    </item>
+    
+    <item>
+      <title>Vorbereitung</title>
+      <link>https://BOB-dcm.github.io/TUTO/content/1/vorbereitung/</link>
+      <pubDate>Sun, 23 Aug 2020 18:41:51 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/content/1/vorbereitung/</guid>
+      <description>Überblick </description>
+    </item>
+    
+    <item>
+      <title>Datenverarbeitungs Befehle</title>
+      <link>https://BOB-dcm.github.io/TUTO/content/3/befehle-daten/</link>
+      <pubDate>Sun, 23 Aug 2020 18:41:34 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/content/3/befehle-daten/</guid>
+      <description>dcmdump dcm2jpeg dcm2pdf dcmdjpeg</description>
+    </item>
+    
+    <item>
+      <title>Netzwerk Befehle</title>
+      <link>https://BOB-dcm.github.io/TUTO/content/3/befehle-netzwerk/</link>
+      <pubDate>Sun, 23 Aug 2020 18:41:34 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/content/3/befehle-netzwerk/</guid>
+      <description>STORE ECHO FIND MOVE GET</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://BOB-dcm.github.io/TUTO/content/bildkomprimirerung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/content/bildkomprimirerung/</guid>
+      <description>Die Bildkomprimierung ist seit ihrer Einführung Teil des DICOM Standards. Damit wird die ursprüngliche Datengrösse des Bildes erheblich reduziert und spart nebst Speicherplatz auch Zeit, die für die Verarbeitung der Daten erforderlich ist (Download, Store, etc.). Dies wird dadurch erreicht, dass die Pixeldaten in eine kürzere Form umgeordnet werden. DICOM selbst enthält keine eigenen Kompressionstechniken, sondern ziemlich alle bekannten Bildkomprimierungsalgorithmen wie ZIP, RLE, JPEG, JPEG2000 und JPEG LS. Die DICOM Datenobjekte mit komprimierten Bildpixelbytes werden in explizit VR Little Endian kodiert.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1s on DICOM Tutorial</title>
+    <link>https://BOB-dcm.github.io/TUTO/1/</link>
+    <description>Recent content in 1s on DICOM Tutorial</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 23 Aug 2020 18:41:57 +0200</lastBuildDate>
+    
+	<atom:link href="https://BOB-dcm.github.io/TUTO/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DICOM Bilder</title>
+      <link>https://BOB-dcm.github.io/TUTO/1/bilder/</link>
+      <pubDate>Sun, 23 Aug 2020 18:41:57 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/1/bilder/</guid>
+      <description>DICOM Bilder Es werden verschiedene Bilddatenbanken und Beispielbilder im Internet angeboten. Unter folgenden Links findet man verschiedenste Bilder von unterschiedlicher Qualität.
+  dsf.
+  dsafdsaf
+ DAFADSF    sf.
+     Die DICOM BIlder werden benötigt für dieses Tutorial. Sie sind die Daten welche von DICOM kodiert werden und in bytes durch das Netzwerk transferiert werden. Es gibt verschiedene bildgebende Verfahren. Daher unterscheiden sich auch die erzeugten Bilder der jeweiligen Verfahren.</description>
+    </item>
+    
+    <item>
+      <title>DICOM Viewer</title>
+      <link>https://BOB-dcm.github.io/TUTO/1/viewer/</link>
+      <pubDate>Sun, 23 Aug 2020 18:41:51 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/1/viewer/</guid>
+      <description>Anzeige Damit sich Bilder im DICOM Format anzeigen lassen, werden DICOM Viewer vorausgesetzt. Mit diesen lassen sich nebst dem betrachten der Bilder, auch viele verschiedene Veränderungen am Bild vornehemen. Dieses Kapitel wird mit dem Programm DICOM Sante PACS behandelt, welches über einen übersichtlichen Viewer verfügt. Er bietet zudem auch einen Hexa Viewer an, mit welchem sich die einzelnen Teile eines DICOM Datenstroms aufgezeigen lassen. Der DICOM Sante PACS Server wird in einem anderen Kapitel behandelt.</description>
+    </item>
+    
+    <item>
+      <title>Vorbereitung</title>
+      <link>https://BOB-dcm.github.io/TUTO/1/vorbereitung/</link>
+      <pubDate>Sun, 23 Aug 2020 18:41:51 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/1/vorbereitung/</guid>
+      <description>Überblick </description>
+    </item>
+    
+  </channel>
+</rss>

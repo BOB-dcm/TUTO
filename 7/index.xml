@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7s on DICOM Tutorial</title>
+    <link>https://BOB-dcm.github.io/TUTO/7/</link>
+    <description>Recent content in 7s on DICOM Tutorial</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 23 Aug 2020 20:11:52 +0200</lastBuildDate>
+    
+	<atom:link href="https://BOB-dcm.github.io/TUTO/7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Was ist DICOM</title>
+      <link>https://BOB-dcm.github.io/TUTO/7/7/</link>
+      <pubDate>Sun, 23 Aug 2020 20:11:52 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/7/7/</guid>
+      <description>What </description>
+    </item>
+    
+  </channel>
+</rss>

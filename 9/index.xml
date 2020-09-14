@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>9s on DICOM Tutorial</title>
+    <link>https://BOB-dcm.github.io/TUTO/9/</link>
+    <description>Recent content in 9s on DICOM Tutorial</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 07 Sep 2020 15:51:58 +0200</lastBuildDate>
+    
+	<atom:link href="https://BOB-dcm.github.io/TUTO/9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Software</title>
+      <link>https://BOB-dcm.github.io/TUTO/9/software/</link>
+      <pubDate>Mon, 07 Sep 2020 15:51:58 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/9/software/</guid>
+      <description>Eingesetzte Software Es kommen einige verschiedene Softwaren zum Einsatz. Wir benötigen ein Archiv, der Kern eines PACS und einen DICOM Viewer, um die abgerufenen Bilder auch betrachten zu können. Zur Befundung reichen diese meist nicht aus, trotzdem bringen die Viewer einige nützliche Bearbetungs Tools mit sich.
+Archiv/Modality
+Orthanc: DICOM Server
+Workstation
+Sante DICOM Viewer: Viewer</description>
+    </item>
+    
+    <item>
+      <title>RPi Konfiguration</title>
+      <link>https://BOB-dcm.github.io/TUTO/9/raspberry-pi/</link>
+      <pubDate>Sun, 23 Aug 2020 18:42:15 +0200</pubDate>
+      
+      <guid>https://BOB-dcm.github.io/TUTO/9/raspberry-pi/</guid>
+      <description>Als DICOM Server wird in diesem Tutorial die Software Orthanc dienen. Diese wird auf dem Raspberry Pi installiert, sowie auch auf dem PC. Orthanc kann als Server und als Modalität konfiguriert werden. Auf dem RPi wird sie als Server genutzt und auf dem PC als simulierte Modalität.
+ Installation RPi:
+  Nach verbinden via ssh](https://www.elektronik-kompendium.de/sites/raspberry-pi/2206121.htm) wird folgender Befehl eingegeben.
+apt-get install orthanc   Nach erfolgreicher Installation wechseln wir das Verzeichnis, um zur Konfigurations Datei des DICOM Servers zu gelangen.</description>
+    </item>
+    
+  </channel>
+</rss>
